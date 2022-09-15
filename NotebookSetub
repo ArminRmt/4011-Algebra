@@ -1,0 +1,72 @@
+
+
+
+install python:
+
+	(linux)        https://phoenixnap.com/kb/how-to-install-python-3-ubuntu
+	(windows)      https://www.python.org/downloads/windows/
+	
+
+	
+make virtual envirement:
+	
+	
+	(linux)        
+	
+		sudo apt install python3.10-venv
+		python3 -m venv myenv
+		cd bin
+		source activate
+		deactivate
+	
+	
+	
+	(windows)     
+	
+		python3 -m venv myenv
+		cd Scripts
+		activate
+		deactivate
+	
+	
+	
+install libraries:
+
+	pip install -r lib.txt
+	
+	
+	
+	
+	
+Jupyter lab:
+
+
+	https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html
+	https://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html
+	
+	pip install jupyterlab
+	jupyter lab
+
+
+
+
+
+	
+Vscode kernel:
+
+	
+	pip install ipykernel	
+	python3 -m ipykernel install --user --name=myenv
+			
+
+
+
+
+
+
+
+
+
+
+
+
